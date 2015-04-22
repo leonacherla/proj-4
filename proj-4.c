@@ -44,14 +44,14 @@ int iteratorA=0;
     
 
     while (iteratorA< 3) {
-        start_thread(threads[i], reader);
+        start_thread(reader);
         iteratorA++;
         printQ(RunQ);
         run();
     }
     
     while (iteratorB< 2) {
-        start_thread(threads[i], writer);
+        start_thread(writer);
         iteratorB++;
         printQ(RunQ);
         run();
