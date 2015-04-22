@@ -1,6 +1,7 @@
 #ifndef THREADS_H
 #define THREADS_H
 #include "q.h"
+#include "TCB.h"
 
 struct Q *RunQ; //RunQ global header pointer
 
